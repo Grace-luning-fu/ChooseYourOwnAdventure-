@@ -6,40 +6,43 @@ Created by Grace and Ratna on July 26 2017
 IPO
 
 Input                                                                                                                                                                         Processing                                                                                                                     Output 
+
+
+																																							Display prompt "Do you want to go the kitchen or upstairs"
                                                                                                         
-kitchen                                                                                                                                    get response
+kitchen                                                                                                                                 get and process response
                                                                                                                                                       if kitchen 																		Message "There is a long countertop with dirty dishes everywhere.....choose between refrigerator or cabinet"
 
 
 
                                        
-    refrigerator                                                                                                                  get response   if refrigerator                                                                                                       Message "Inside the refrigerator... choose between yes or no"
-                 yes                                                                                      		            	            		get response if yes																	message "You got food!"
-                 no                                                            					           		      		get response if no 																	message "You die of starvation...."    
+    refrigerator                                                                                                                  get and process response   if refrigerator                                                                           Message "Inside the refrigerator... choose between yes or no"
+                 yes                                                                                      		            	            		get and process response if yes																	message "You got food!"
+                 no                                                            					           		      		get and process  response if no 																	message "You die of starvation...."    
                                                                                                                                                      
     cabinet		                                                                                                                get response  if cabinet															Message"Inside the cabinet.... choose between yes or no"
-             	yes																	       get response	if yes																	message "You got cans of food!"
-                no                                                  										       get response	if no 																	message "You die of hunger!"
+             	yes																	       get and process response if yes																	message "You got cans of food!"
+                no                                                  										       get and process  response if no 																	message "You die of hunger!"
    
 
-																		get response
+																		get and process response
 upstairs                                                                                                                               if upstaris 																		Message "Upstairs you see a hallway....choose between bedroom or bathroom"
                                                                                                                               
                   			
            																	
 
 
-    bedroom                                                                                                                     get response if bedroom														    Message "You are in a plush bedroom, choose between yes or no"
- 		   yes															     get response if yes																		message "You will be suprised!"								
-		   no															     get response if no																		message "Well, then I guess you'll never know what was in there. .."
+    bedroom                                                                                                                     get response and process if bedroom									              Message "You are in a plush bedroom, choose between yes or no"
+ 		   yes															     get and process response if yes																		message "You will be suprised!"								
+		   no															     get and process response if no																		message "Well, then I guess you'll never know what was in there. .."
                  
 
 
-  bathroom 					                                                                          get response if bathroom                                                                                                             Message "Do you want to take a shower? choose "
-  		   yes															     get response if yes																		message "The water is poisonous!"								
-		   no															     get response if no																		message "You can jsu relex."           
+  bathroom 					                                                                          get response and process if bathroom                                                                                       Message "Do you want to take a shower? choose "
+  		   yes															     get and process response if yes																		message "The water is poisonous!"								
+		   no															     get and process response if no																		message "You can jsu relex."           
  
-Others                                           										get response if others															Message " Error Message, choose between kitchen or uspstairs." Prompt again.
+Others                                           										get and process response  if others													Message " Error Message, choose between kitchen or uspstairs." Prompt again.
 
 
 ***
