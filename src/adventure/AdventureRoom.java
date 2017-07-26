@@ -15,6 +15,7 @@ public class AdventureRoom {
 		String response5 = null;
 		String response6 = null;
 		String response7 = null;
+		String conti = null;
 
 		System.out.println("WELCOME TO MITCHELL'S TINY ADVENTURE!");
 		System.out.println("You are in a creepy house!  Would you like to go upstairs or into the kitchen?");
@@ -22,6 +23,8 @@ public class AdventureRoom {
 		response1 = scan1.nextLine();
         
 	    //while answer is not kitchen and is not upstairs, continue prompt and get response
+		do{
+		
 		while (!response1.equalsIgnoreCase("kitchen")&&!response1.equalsIgnoreCase("upstairs")){
 	    	System.out.println("Error Message: You should choose either 'kitchen' or 'upstairs'. Try again:");
 	    	Scanner scan8= new Scanner(System.in);
@@ -106,10 +109,14 @@ public class AdventureRoom {
 
 			}
 		}
+		System.out.println("Do you want to continue?, 'yes' or 'no'?");
+		Scanner scan9 = new Scanner(System.in);
+		conti = scan9.nextLine();	
+		 
 
-	    }
+	    } while(conti.equals("yes"));
 
 
 	}
-
+}
 
