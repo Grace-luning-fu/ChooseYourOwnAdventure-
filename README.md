@@ -48,14 +48,16 @@ Others                                           										get and process respo
 ***
 Test Result:
 
-WELCOME TO MITCHELL'S TINY ADVENTURE!   
-You are in a creepy house!  Would you like to go upstairs or into the kitchen?       
-living room       
-Error Message, choose between kitchen or uspstairs. Run the application over.              
-kitchen             
-There is a long countertop with dirty dishes everywhere.  Off to one sidethere is, as you'd expect, a refrigerator. You may open the refrigeratoror look in a cabinet.       
-Choose between refrigerator or cabinet                
-cabinet               
-There are food in the cabinet.Do you want to eat? yes or no                 
-yes                       
-You found the food in the cabinet!           
+WELCOME TO MITCHELL'S TINY ADVENTURE!        
+You are in a creepy house!  Would you like to go upstairs or into the kitchen?               
+go upstairs            
+Error Message: You should choose either 'kitchen' or 'upstairs'. Try again:           
+upstairs             
+Upstairs you see a hallway. At the end of the hallway is the master bedroom. There is also a bathroom off the hallway.              
+Where would you like to go?             
+Choose between 'bedroom' and 'bathroom'             
+bedroom             
+You are in a plush bedroom, with expensive-looking hardwood furniture.The bed is unmade. In the back of the room, the closet door is ajar.          
+Would you like to open the door? 'yes' or 'no'        
+yes        
+You will be surprised. Thanks for playing.    
